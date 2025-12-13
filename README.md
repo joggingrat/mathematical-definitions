@@ -1,1 +1,2 @@
 # mathematical-definitions
+$\latex$
