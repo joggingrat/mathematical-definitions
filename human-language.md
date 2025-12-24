@@ -1,4 +1,7 @@
-This document provides a formal syntax for the language I used witten in BNF. Each rule starts with a $`\blacktriangleright`$. A terminal is either $`_\sqcup`$ or a symbol enclosed in quotation marks, where $`_\sqcup`$ denotes white space.
+# ren hua
+"人话($`\mathrm{r\acute{e}n\ hu\grave{a}}`$)", translated directly into English is "human language". In the context of a chinese people accusing another not speaking human language, He means that there are little consensus between them, so it feels like he is talking to another species. To avoid this, I define the formal language renhua, which after translation, become an extension by definition of ZFC.
+
+# syntax of ren hua
 
 $`\blacktriangleright \langle expression\rangle::=`$$`\langle form\ ii\rangle`$
 
@@ -25,3 +28,5 @@ $`\blacktriangleright\langle term\ ii\rangle::=`$$`\langle variable\rangle|`$$`\
 $`\blacktriangleright\langle term\ list\ ii\rangle::=`$$`\langle term\ ii\rangle_\sqcup\langle term\ list\ ii\rangle|`$$`""`$\
 $`\blacktriangleright\langle atom\ ii\rangle::=`$$`\langle pred\rangle|`$$`\langle pred\ i\rangle"("\langle term\ ii\rangle")"|`$$`\langle pred\ ii\rangle"("\langle term\ ii\rangle_\sqcup\langle term\ ii\rangle")"|`$$`\langle pred\ iii\rangle"("\langle term\ ii\rangle_\sqcup\langle term\ ii\rangle_\sqcup\langle term\ ii\rangle")"|`$$`\langle term\ ii\rangle"="\langle term\ ii\rangle|`$$`\langle term\ ii\rangle"\in"\langle term\ ii\rangle|`$$`\langle term\ ii\rangle":"\langle term\ ii\rangle"\rightarrow"\langle term\ ii\rangle`$\
 $`\blacktriangleright\langle form\ ii\rangle::=`$$`\langle atom\ ii\rangle`$$`"\lnot"\langle form\ ii\rangle|`$$`\langle form\ ii\rangle","\langle form\ ii\rangle|`$$`"("\langle form\ ii\rangle","\langle form\ ii\rangle")"|`$$`\langle form\ ii\rangle"\lor"\langle form\ ii\rangle|`$$`"("\langle form\ ii\rangle"\lor"\langle form\ ii\rangle")"|`$$`\langle form\ ii\rangle"\rightarrow"\langle form\ ii\rangle|`$$`"("\langle form\ ii\rangle"\rightarrow"\langle form\ ii\rangle")"|`$$`\langle form\ ii\rangle"\leftrightarrow"\langle form\ ii\rangle|`$$`"("\langle form\ ii\rangle"\leftrightarrow"\langle form\ ii\rangle")"|`$$`"\forall"\langle variable\rangle"("\langle form\ ii\rangle")"|`$$`"\forall"\langle variable\rangle_\sqcup\langle atom\ ii\rangle|`$$`"\exists"\langle variable\rangle"("\langle form\ ii\rangle")"|`$$`"\exists"\langle variable\rangle_\sqcup\langle atom\ ii\rangle`$
+
+# semantic of ren hua
