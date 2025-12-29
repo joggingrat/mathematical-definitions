@@ -10,7 +10,7 @@ $`\mathrm{2ARY\ FUNCTION}::=`$\
 $`\mathrm{3ARY\ FUNCTION}::=`$\
 $`\mathrm{0ARY\ PREDICATE}::=`$$`\top|\bot`$\
 $`\mathrm{1ARY\ PREDICATE}::=`$\
-$`\mathrm{2ARY\ PERDICATE}::=`$$`\in|`$\
+$`\mathrm{2ARY\ PERDICATE}::=`$$`=|\in`$\
 $`\mathrm{3ARY\ PREDICATE}::=`$
 ## Formula
 $`\blacktriangleright\langle\mathrm{formula}\rangle::=`$$`\langle\mathrm{atom}\rangle|`$$`\lnot\langle\mathrm{formula}\rangle|`$$`\land\langle\mathrm{formula}\rangle\langle\mathrm{formula}\rangle|`$$`\lor\langle\mathrm{formula}\rangle\langle\mathrm{formula}\rangle|`$$`\rightarrow\langle\mathrm{formula}\rangle\langle\mathrm{formula}\rangle|`$$`\leftrightarrow\langle\mathrm{formula}\rangle\langle\mathrm{formula}\rangle|`$$`\forall\mathrm{VARIABLE}\langle\mathrm{formula}\rangle|`$$`\exists\mathrm{VARIABLE}\langle\mathrm{formula}\rangle|`$\
