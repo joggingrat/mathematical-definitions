@@ -1,3 +1,15 @@
+$`\blacktriangleright \neq(\bullet\bullet)`$
+```math
+\leftrightarrow \neq(x\ y)\lnot=(x\ y)
+```
+$`\blacktriangleright \notin(\bullet\bullet)`$
+```math
+\leftrightarrow \notin(x\ y)\lnot\in(x\ y)
+```
+$`\emptyset`$
+```math
+\leftrightarrow =(\emptyset\ y)\forall t
+```
 $`intersec(\bullet\bullet)`$
 ```math
 \leftrightarrow =(intersect(x\ y)\ z)\forall t\leftrightarrow \in(t\ z)\land \in(t\ x)\in(t\ y)
@@ -16,5 +28,6 @@ $`paira(\bullet)`$
 ```
 $`pairb(\bullet\bullet)`$
 ```math
-\leftrightarrow 
+\leftrightarrow =(pairb(x\ y)\ z)\forall t\leftrightarrow \in(t\ z)\lor =(t\ x)=(t\ y)
 ```
+$`tuple(\bullet)`$
