@@ -54,5 +54,6 @@ $`\leftrightarrow \preceq(x\ y)\exists z\land BIJECT(z\ y)=(dom(z)\ x)`$\
 $`\leftrightarrow \prec(x\ y)\land\preceq(x\ y)\lnot\approx(x\ y)`$\
 $`\leftrightarrow CARDINAL(x)\land ORDINAL(x)\forall y\rightarrow \land ORDINAL(y)\approx(x\ y)\lor\in(x\ y)=(x\ y)`$\
 $`\leftrightarrow =(\kappa(x)\ y)\land\approx(x\ y)CARDINAL(y)`$\
+$`\leftrightarrow LIMORD(x)\land ORDINAL(x)\lnot\exists y=(suc(y)\ x))`$\
 $`\leftrightarrow=(next(x)\ y)\land\rightarrow\lnot ORDINAL(x)=(y\ \emptyset)\rightarrow ORDINAL(y)\prec(x\ y)\forall z\rightarrow\land ORDINAL(z)\prec(x\ z)\lor=(z\ y)<(y\ z)`$\
 $`\leftrightarrow =(\aleph(x)\ y)\land\rightarrow\lnot ORDINAL(x)=(y\ \emptyset)\rightarrow ORDINAL(x)\exists F\land\land\land\land\land MAP(F\ suc(x)\ ran(F))=(app(F\ 0)\ \omega)\forall z\rightarrow\land ORDINAL(z)\in(suc(z)\ dom(F))=(app(F\ suc(z))next(app(F\ z)))\forall z\rightarrow\land LIMORD(z)\in(z\ dom(f))=(app(F\ z)\lor(\lambda(z\ F)))=(y\ app(F\ x))`$
